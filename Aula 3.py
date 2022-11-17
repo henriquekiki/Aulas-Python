@@ -1,19 +1,19 @@
 # Daqui pra baixo, codigo pra calcular media e dizer se esta aprovado ou reprovado.
 
 a = int(input('Primeiro bimestre: '))
-if a > 10:
+while a > 10:
     a = int(input('Você digitou a nota errada! \nPrimeiro bimestre: '))
 
 b = int(input('Segundo bimestre: '))
-if b > 10:
+while b > 10:
     b = int(input('Você digitou a nota errada! \nSegundo bimestre: '))
 
 c = int(input('Terceiro bimestre: '))
-if c > 10:
+while c > 10:
     c = int(input('Você digitou a nota errada! \nTerceiro bimestre: '))
 
 d = int(input('Quarto bimestre: '))
-if d > 10:
+while d > 10:
     d = int(input('Você digitou a nota errada! \nQuarto bimestre: '))
 media = (a + b + c + d) / 4
 if media >= 5:
