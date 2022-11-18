@@ -1,3 +1,6 @@
+# Codigo criado por mim a partir do aprendizado do curso pra calcular a média.
+# Ele parece com o codigo que eu escrevi na aula 4, porém eu tentei deixar ele de uma forma mais simples de ler e mais organizado,
+
 a = int(input('Digite a primeira nota: '))
 while a > 10:
     a = int(input('Nota errada! Digite novamente.\nDigite a primeira nota: '))
