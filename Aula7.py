@@ -1,5 +1,5 @@
 from Aula6_TV import Televisao
-from Aula6_2 import Calculadora
+from Aula6_calculadora import Calculadora
 from Aula8_importação import contador_letras
 
 
